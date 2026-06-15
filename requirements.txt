@@ -1,0 +1,23 @@
+# Core Framework & API
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+
+# Document Loading & Processing 
+pypdf
+pymupdf
+langchain-text-splitters
+
+# Embeddings & Vector Operations 
+sentence-transformers
+faiss-cpu                    
+numpy
+
+# LLM Integration 
+groq
+
+# Configuration & Utilities 
+python-dotenv
+python-multipart
+aiofiles
