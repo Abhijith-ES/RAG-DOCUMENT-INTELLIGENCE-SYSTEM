@@ -11,5 +11,4 @@ def embed_text(texts : list[str], model : SentenceTransformer) -> np.ndarray:
     if not texts:
         raise ValueError("List Cannot be Empty!")
 
-    return model.encode(texts)
-        
+    return model.encode(texts, convert_to_numpy=True)
