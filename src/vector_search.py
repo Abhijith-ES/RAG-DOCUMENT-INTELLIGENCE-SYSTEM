@@ -10,7 +10,7 @@ def search_similar_chunks(query: str,
                           top_k : int=5
                           ) -> list[dict]:
     
-    query_embedding = embedding_model.encode(query)
+    query_embedding = embedding_model.encode(query, convert_to_numpy=True)
 
     query_vector = np.array([query_embedding]).astype('float32')
 
